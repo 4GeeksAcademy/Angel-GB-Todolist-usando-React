@@ -10,10 +10,37 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
-ul li {
-    border: solid 1px;
+body {
+    background-image: url("https://st2.depositphotos.com/1001069/6825/i/450/depositphotos_68254415-stock-photo-office-desk-table-with-computer.jpg");
+    background-size: cover;
+    color: rgb(28, 36, 23);
 }
 
-.carta {
-    border: solid 2px;
+h1 {
+    text-shadow: 4px 4px 4px rgb(255, 255, 255);
 }
+
+.hoja {
+    background-image: url("https://img.freepik.com/vector-gratis/vector-diseno-papel-blanco-blanco_53876-161340.jpg");
+    width: 600px;
+    height: 700px;
+    position: absolute;
+    right: 35%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .hoja1 {
+    transform: rotate(-2deg) translateY(-20px);
+    z-index: 1;
+  }
+  
+  .hoja2 {
+    transform: rotate(0deg) translateY(0px);
+    z-index: 2;
+  }
+  
+  .hoja3 {
+    transform: rotate(2deg) translateY(20px);
+    z-index: 3;
+  }
