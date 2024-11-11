@@ -22,17 +22,17 @@ body {
     /* text-shadow: 4px 4px 4px rgb(255, 255, 255); */
     color: white;
     background-color: rgba(19, 19, 18, 0.541);
+    width: 100%;
 }
+
 
 .hoja {
     background-image: url("https://img.freepik.com/vector-gratis/vector-diseno-papel-blanco-blanco_53876-161340.jpg");
-    min-width: 600px;
     min-height: 700px;
     position: absolute;
-    top: 20%;
-    left : 35%;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    word-wrap: break-word;
   }
   
   .hoja1 {
